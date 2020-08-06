@@ -1,0 +1,154 @@
+body {
+  background-color: #f2eecb;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+imgContainer{
+  float:right;
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+img{
+  height: auto;
+  width: auto; 
+}
+
+bookTitle {
+  font-family: Baskerville;
+  font-size: 30pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-block;
+  color: black;
+}
+
+authorHeader {
+  font-family: Baskerville;
+  font-size: 25pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: auto;
+  text-align: center;
+  display: inline-block;
+  color: black;
+}
+
+authorName {
+  font-family: Baskerville;
+  font-size: 20pt;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+aboutAuthor {
+  font-family: Baskerville;
+  font-size: 18pt;
+  font-style: normal;
+  font-variant: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+descriptHeader {
+  font-family: Baskerville;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+description {
+  font-family: Baskerville;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-align: justify;
+  white-space: normal;
+  line-height: 20px;
+}
+
+reviewHeader {
+  font-family: Baskerville;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.greyText {
+  color: #999999;
+  -webkit-text-stroke: .25px black;
+}
+
+button {
+  background-color: #f2eecb;
+  border-radius: 4px;
+  font-family: Baskerville;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+.more {
+  display: none;
+}
+
+.staticStars {
+  width: 75px;
+  height: 15px;
+  font-size: 0;
+  background-repeat: no-repeat;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.staticStar,
+.staticStar_flat,
+.staticStar_flat_orange {
+  width: 15px;
+  height: 15px;
+  float: left;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
+.star.off, .staticStar.p0 {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAABaUlEQVR4AZ3UtaLUQBgF4MGlxd31JfAH2BfYckvcHSqc6+7ubs31+ipwzgT3BocOm3XfSTY5fzP2xSfCLM/2PtsrnIbXeM05fsRHDqmxGwrK2O0Iy8t+LC87wpzxY844oTuhgsWd9vHFCL5oG2MqjDFlkz7fDhWt59ttYZ6PxTyvuzw3s1iAUlShga3s5gCHMI4vsdjXG+cQB9jNVjSgCqUsYBbc4uNS1kPZL9Z/XCr84Sn+tQX/8lTsp3iIn9Omn41DIj4vN2EyLTz5cpNIzrslqLak1e+WCF1wHH+08A+OW31ZR7T4iLAK9+sw91ti3NZh3LbEfKTDlr+k5xug9PV8gymmJ3axzJW5sX16TDE6Iku/whUYceFrZKzDhKqF+BVaNv58Q8ytjIdGf6mFWmwc8i/hP3lTzYsdV/PkTf7zzxmHtJj3ofiB+1O/f36A4n0tBthtLNde13J2Azq6Rh4TFpHHsCba8wIHb2XVGoaSPQAAAABJRU5ErkJggg==);
+  background-size: 15px;
+}
+
+.staticStar.p3 {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACYElEQVR4AcXWA5DcYBQH8JqD2rY7qm0bw7Nt26xt27Ztt8nZRnBrpC9nrJIsMvNf7/32w7vvNWN7JScnj6HTTN/Xv3//QugYAv5FR69owdFd8//+/UvRQVF0lN7g0i0h92pgBEEC9QZXeFvyamCY7h96QYv2xCwVWa2tROvhI3QOl8f6PVQA++sc5nmY8kWWaxrAkG86RbH9WxaITZdTIovVjWEqJSVlmM7gsriA+1XwqsYwPd2+zEpja+gBLMLzOx7u8QcLc0OxENdUPMQ5kwhyzCEDHQrIALti0temrMLHChPZbZTRsFjBiCGlkFfwA55C7kNuQa7Aa+chJyFH4Pl+yE54bNyMOLG7Kx7snEH/QY1TM2IWAfhcXl5eh7ppTAi6KTFbKdcVDKAU4qF42vfEegptq6dTVcxXMkVLUBRdoHrND26ZzvM046mEzRjBX9PS0gZqVjZn9nbGQ11TlcMrNEVPZWdnt2d+GCQEXZWYK1x3daAE4sqpdkt2xviwgBdxMWs2nAtTGDbTXM4wFu3znsWI4zjDPHcTAVOYc0uEH945mUYUwn/+qMTh0OjPfmNtCTmlDEb+/tmLIMgeFaO2Zg0TgY55jUE4i+XQDOyu+Qwg6yBlCvDrrFDqwcmO0Gk0qGFYb5LcGT2n8WfpaQXoVSOYpCiqDZsy8qwBJabL5XiExzvqWGg7ZZ8HpCVMfThMsaxe67uARRl5f6ZRof1madn2MC8Gjf5cSG71Om9hXkauxkLSz66w5EAi44YdRtoN0Ft/4WL0xcL9WyaWw/9pmL7mXMoRpt4F7N6K3vsPiBFctC7XXLQAAAAASUVORK5CYII=);
+  background-size: 15px;
+}
+
+.staticStar.p6 {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACdklEQVR4Ab2WA6wcURSGawa1ETZOo9q2FT3sW9e2bdu2bQW128WzjcFat+emHTwPduYm/+5wvz28p4rUVXh45yhi95opVdReRZuXvKSXmH6qDnbOjXL7YkaGUMzoVqpBC49uH+aLHo6w3LMjD6rp5mcM2Ksf40AzZtRWy80uBowV0IzUKA4tOLJzMANk5NGNtiof383LnvChjPyaUX0UdrPGWTZ4xA3FoMSxXf0xpExw9IgA0g5vr4ybty57VA6YsXqb8GTZufoIsW7+d3LtvD/Emjl2YtXsBHLVzBRqxfR0evm0bHqZOY9ebCx0LNITXvPEYEVgj3mS12q1vgQ9Bt0D3bBYLJdBZ0En4PwwaC8cR1ahzuxvTK6cmYxflCuPcQKCH61QAL6UmZlZj3PjthV3/ZqRIXng8RUBA6B5Zbv9wOb5HhO4UyrYMK48aL7dbh9QccyP7ujunK9xhhH8NTExUVi2ExcONiRXz04IA/hcWlpaXfHtcduKm/4Y4XH3cmA/aLas2s3fu2mRYLB+LAMeJIfJJNwssWBIpr6ywcTGRe8lWLwlLCOOYLBuDGPxL1lQ8vjezmKy2qsdzWZ0fHx8W+mJtWPVufIg1PoFP7HKA4PVBslgavn0zFJWQWfL371uM9tq4dhrnBD8Bx7Fr+HbkqDoydn6kCwhPhTvUNj9pTL/4JauzgVa0sezGEQjhGpJKaP5vH02VLRp8Rv0+UjNcv/o1au1ijYteQsuDjJw3J8llNHCzxjqnjYlgGtZ6Hu4hkEZ/+O8Q3wZzY704EEg7+iODmLfBUub4EHAAkvUizmHd3Qs2r5K9vBms9lmAbtlWff+AvvUBrbultsrAAAAAElFTkSuQmCC);
+  background-size: 15px;
+}
+
+.staticStar.p10 {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABvUlEQVR4Ab2WNZDXQBTGcWtxd+173PYFh5bJ5uBK3B0q3N3d3RvkoMalb6hw6DY5yQ8np5v8s5l5sfe+7zezXi/tVa7HDSDqub5CX60knIONlleEU2h58Zh+xlflBO/umlmrZb/BvDsDx8AXv8G8u2nm6RP6APw3+OdgNMuSJJh/DppZniXB/Mu3mYvG9gJUVZDLr5kDtag6MDkrsyjwpka+bI+07DVaDhnfO260OhtquRRqdSN+3o3jfhyP4++P1YHJUUMtGrR44IUn3jBgwWQxaGF8OYPYRcCC+U8zytzQlygvIN4wqu7DIm9oXPAhB+gHvGsZuaqr0eppoaB44Vm3aTN7SnOj5URWKB542S8WgcwKtQptgWjQZlwixw63BaPJvmhM8wbZgtEUYu9dZwtGU5gjjiU465GIk2TntCMabWqwCaS4OuMokF1EdXm0GfpXrlaxCn2KAm/C7xre+ZesQ5uumVdNaRKLvyfMHlfVhPwjl6j9joc1mLX1H5PS0Jc15eenNKyunhw11P7W4ZFm09/0C/rOZl5SiwYtHmmm0Vs283jvbGWrRYMWD0vhxPbG92bWy3jhgVdVuQp3XI5mu1kSTwAAAABJRU5ErkJggg==);
+  background-size: 15px;
+}
+
+
